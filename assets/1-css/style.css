@@ -1,0 +1,38 @@
+:root {
+    --dark-pink: #B05C5B;
+    --light-pink: #FFC8CA;
+    --maroon: #560C0E;
+    --navy-blue: #36577D;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html { 
+    background: url(./assets/2-imgs/red-galaxy.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+header, 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: var(--dark-pink);
+    height: 75px;
+}
+
+header h1 {
+    font-size: 200%;
+    font-style: italic;
+    align-self: center;
+    margin-left: 50px;
+}
