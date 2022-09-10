@@ -1,3 +1,6 @@
+/* Todo: create a text box that appears when you click header h1 */
+
+
 :root {
     --dark-pink: #B05C5B;
     --light-pink: #FFC8CA;
@@ -18,6 +21,7 @@ html {
     background-size: cover;
   }
 
+
 header, 
 footer {
     width: 100%;
@@ -25,14 +29,47 @@ footer {
     justify-content: space-between;
 }
 
+/* Header*/
+
 header {
     background: var(--dark-pink);
     height: 75px;
+    display: flex;
+    align-items: center;
 }
 
 header h1 {
     font-size: 200%;
     font-style: italic;
-    align-self: center;
     margin-left: 50px;
+}
+
+header h1:hover {
+    cursor: pointer;
+}
+
+header h1:active {
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* nav list style */
+
+li a {
+    padding: 20px 30px;
+    border-radius: 21px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: var(--maroon);
+    font-style: italic;
+    background: var(--navy-blue);
+    box-sizing: content-box;
 }
