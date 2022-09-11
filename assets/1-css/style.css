@@ -14,6 +14,9 @@
 }
 
 body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: url(./assets/2-imgs/red-galaxy.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,11 +111,22 @@ li a:hover {
 
 .about-me {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
     background: var(--maroon);
+    margin: 40px;
     width: 1190px;
     height: 141px;
 }
+
+.title h2 {
+    font-size: 250%;
+    color: white;
+    padding: 40px;
+    border-right: 2px solid white;
+    margin: 20px 50px;
+}
+
 
 
 
