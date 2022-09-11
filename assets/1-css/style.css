@@ -48,9 +48,6 @@ header h1:hover {
     cursor: pointer;
 }
 
-header h1:active {
-
-}
 
 header ul {
     display: flex;
@@ -105,4 +102,27 @@ li a:hover {
     margin-right: 30px;
     margin-left: 230px;
     margin-top: 35px;
+}
+
+/* About me style */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    background: var(--maroon);
+    width: 1190px;
+    height: 141px;
+}
+
+
+
+
+.projects img {
+    width: 663px;
+    height: 469px;
+}
+
+#one {
+    width: 1346px;
+    height: 467px;
 }
