@@ -157,13 +157,32 @@ li a:hover {
 
 /* Projects style*/
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1366px;
+}
+
+.projects p {
+    position: absolute;
+    font-size: 150%;
+    color: white;
+}
+
 .projects img {
     width: 663px;
     height: 469px;
     border-radius: 21px;
+    flex: 1 0 0;
+    max-width: 663px;
+    margin: 10px;
 }
 
 #one {
     width: 1300px;
-    height: 467px;
+    height: 425px;
+    flex: auto;
+    max-width: 1300px;
 }
+
