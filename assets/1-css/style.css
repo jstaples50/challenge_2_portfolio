@@ -85,7 +85,7 @@ li a:hover {
 
 .top-quote img,
 .top-quote .quote-box {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .top-quote img {
@@ -138,14 +138,32 @@ li a:hover {
     margin-right: 30px;
 }
 
+/* What i do style */
 
+.what-i-do {
+    width: 1190px;
+    height: 83px;
+    background: var(--light-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    margin-bottom: 40px;
+}
+
+.what-i-do h3 {
+    font-size: 200%;
+}
+
+/* Projects style*/
 
 .projects img {
     width: 663px;
     height: 469px;
+    border-radius: 21px;
 }
 
 #one {
-    width: 1346px;
+    width: 1300px;
     height: 467px;
 }
