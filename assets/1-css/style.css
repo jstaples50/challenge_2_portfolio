@@ -213,3 +213,39 @@ li a:hover {
     max-width: 1300px;
 }
 
+/* Contact style */
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 50px;
+    background: var(--maroon);
+    border-radius: 21px;
+    margin: 40px;
+}
+
+.contact label {
+    font-size: 150%;
+    font-weight: 600;
+    color: white;
+}
+
+.contact input {
+    width: 200px;
+    padding: 8px;
+}
+
+.contact button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 37px;
+    padding: 8px;
+    background: var(--light-pink);
+    color: var(--maroon);
+    font-size: 125%;
+    border-radius: 40px;
+}
