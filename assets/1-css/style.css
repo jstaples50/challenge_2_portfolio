@@ -35,7 +35,7 @@ footer {
     justify-content: space-between;
 }
 
-/* Header*/
+/* Header style*/
 
 header {
     background: var(--dark-pink);
@@ -166,8 +166,35 @@ li a:hover {
 
 .projects p {
     position: absolute;
-    font-size: 150%;
+    font-size: 400%;
+    font-style: italic;
+    font-weight: 700;
     color: white;
+}
+
+#p-1 {
+    top: 1076px;
+    left: 1070px;
+}
+
+#p-2 {
+    top: 1570px;
+    left: 450px;
+}
+
+#p-3 {
+    top: 1570px;
+    left: 1127px;
+}
+
+#p-4 {
+    top: 1700px;
+    left: 75px;
+}
+
+#p-5 {
+    top: 1700px;
+    left: 757px;
 }
 
 .projects img {
