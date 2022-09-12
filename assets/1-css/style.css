@@ -21,14 +21,10 @@ html {
     background-size: cover;
   }
 
-/* .flex-shrink {
-    flex-shrink: 1;
-} */
-
 body { 
     display: flex;
     flex-direction: column;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -37,7 +33,7 @@ header,
 footer {
     width: 100%;
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -59,6 +55,11 @@ header h1 {
 
 header h1:hover {
     cursor: pointer;
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -108,7 +109,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 2 auto;
+    flex: 0 1 auto;
     width: 1000px;
     height: 220px;
     background: var(--light-pink);
@@ -168,6 +169,7 @@ li a:hover {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
+    flex: 0 1 auto;
     justify-content: center;
     width: 1366px;
 
@@ -266,6 +268,10 @@ li a:hover {
 
 /* Image-credits style */
 
+footer {
+    flex: 0 1 auto;
+}
+
 .image-credits {
     display: flex;
     justify-content: space-between;
@@ -296,10 +302,18 @@ li a:hover {
     color: white;
 }
 
+.image-credits a:hover {
+    background: none;
+}
+
 @media screen and (max-width: 750px) {
     header {
         flex-direction: column;
         justify-content: center;
+    }
+
+    li a:hover {
+        background: none;
     }
 
     .top-quote {
@@ -317,15 +331,19 @@ li a:hover {
 
     .quote-box {
         margin: 0;
+        min-width: 0;
     }
 
     .projects-container {
         align-items: center;
     }
 
-    /* .img-container,
-    .img-container img {
-        width: 498px;
-        height: 352px;
-    } */
+    .image-credits {
+        flex-direction: column;
+    }
+
+    .image-credits h3 {
+        border: none;
+    }
+
 }
