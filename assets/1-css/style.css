@@ -320,6 +320,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        width: 400px;
     }
 
     .top-quote img {
@@ -334,8 +335,42 @@ footer {
         min-width: 0;
     }
 
+    .about-me {
+        width: 600px;
+        height: auto;
+    }
+
+    .about-me p {
+        margin: 30px;
+        line-height: 1.5;
+    }
+
+    .what-i-do {
+        width: 400px;
+    }
+
     .projects-container {
         align-items: center;
+        width: 600px;
+    }
+
+    .img-container, 
+    .img-container img, 
+    #project-1, 
+    #one {
+        width: 250px;
+        height: 160px;
+    }
+    
+
+    #p-1 {
+        top: 86%;
+        left: 33%;
+        transform: translate(-86%, -33%);
+    }
+
+    .img-container p {
+        font-size: 150%;
     }
 
     .image-credits {
