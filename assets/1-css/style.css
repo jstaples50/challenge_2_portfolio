@@ -343,6 +343,10 @@ footer {
         min-width: 0;
     }
 
+    .quote-box p {
+        padding: 30px;
+    }
+
     .about-me {
         width: 600px;
         height: auto;
