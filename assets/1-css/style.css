@@ -91,6 +91,13 @@ li a:hover {
     display: flex;
 }
 
+.top-quote p {
+    font-size: 125%;
+    color: var(--maroon);
+    font-style: italic;
+    line-height: 1.5;
+}
+
 .top-quote img,
 .top-quote .quote-box {
     margin-bottom: 100px;
@@ -145,6 +152,7 @@ li a:hover {
     font-size: 110%;
     color: white;
     margin-right: 30px;
+    line-height: 1.5;
 }
 
 /* What i do style */
