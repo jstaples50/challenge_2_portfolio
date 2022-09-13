@@ -16,7 +16,7 @@ N/A
 
 ## Usage
 
-*website link here*
+[Jared Staples Portfolio](https://jstaples50.github.io/challenge_2_portfolio/)
 
 ## Credits
 
