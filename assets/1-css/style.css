@@ -373,12 +373,20 @@ footer {
         font-size: 150%;
     }
 
+    .contact {
+        width: 600px;
+    }
+
     .image-credits {
         flex-direction: column;
+        height: auto;
     }
 
     .image-credits h3 {
         border: none;
     }
 
+    .image-credits ul {
+        padding: 30px;
+    }
 }
